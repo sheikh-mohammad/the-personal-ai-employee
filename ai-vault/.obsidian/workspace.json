@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7271dc84f74a9287",
+        "id": "2afab702478eb919",
         "type": "tabs",
         "children": [
           {
-            "id": "ec35c222909a0d59",
+            "id": "25f087af30b99fe2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -179,10 +179,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "ec35c222909a0d59",
+  "active": "25f087af30b99fe2",
   "lastOpenFiles": [
+    "CLAUDE.md",
     "Welcome.md",
-    "AGENTS.md",
-    "CLAUDE.md"
+    "AGENTS.md"
   ]
 }
