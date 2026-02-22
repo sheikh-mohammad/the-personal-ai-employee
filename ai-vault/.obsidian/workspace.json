@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d61004bff5f4e0d0",
+        "id": "7271dc84f74a9287",
         "type": "tabs",
         "children": [
           {
-            "id": "f57185cd046b7925",
+            "id": "ec35c222909a0d59",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "398854b7b24849ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGENTS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,9 +179,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "398854b7b24849ec",
+  "active": "ec35c222909a0d59",
   "lastOpenFiles": [
     "Welcome.md",
-    "AGENTS.md"
+    "AGENTS.md",
+    "CLAUDE.md"
   ]
 }
