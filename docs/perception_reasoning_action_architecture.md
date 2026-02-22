@@ -27,19 +27,16 @@ This layer serves as the cognitive engine, interpreting external inputs, applyin
 
 ### Layer 3: Action (MCP Servers)
 
-The Action Layer executes the decisions made by the reasoning layer through Model Context Protocol (MCP) servers that   
-interface with external services:
+The Action Layer executes the decisions made by the reasoning layer through Model Context Protocol (MCP) servers that interface with external services:
 
 - Gmail MCP: Send, draft, and search emails
 - Browser MCP: Navigate, click, and fill forms
 - Calendar MCP: Create and update events
 - Filesystem MCP: Read, write, and list files (built-in)
 
-The action layer also implements human-in-the-loop controls for sensitive operations. Actions requiring approval are    
-placed in /Pending_Approval/ where humans can review and either approve (move to /Approved/) or reject (move to
-/Rejected/) before execution.
+The action layer also implements human-in-the-loop controls for sensitive operations. Actions requiring approval are placed in /Pending_Approval/ where humans can review and either approve (move to /Approved/) or reject (move to /Rejected/) before execution.
 
-How They Work Together
+### How They Work Together
 
 The three layers create a closed-loop system:
 
@@ -47,10 +44,6 @@ The three layers create a closed-loop system:
 2. Reasoning interprets these events, applies business logic, and decides what to do
 3. Action executes the decisions, with safety checks for sensitive operations
 
-This architecture enables a Digital FTE that works 24/7, processes multiple input sources, makes intelligent decisions  
-based on your business rules, and executes actions autonomously while maintaining human oversight for sensitive
-operations. The system is designed to be both autonomous and trustworthy, with clear audit trails and permission        
-boundaries that define what can be auto-approved versus what requires human approval.
+This architecture enables a Digital FTE that works 24/7, processes multiple input sources, makes intelligent decisions based on your business rules, and executes actions autonomously while maintaining human oversight for sensitive operations. The system is designed to be both autonomous and trustworthy, with clear audit trails and permission boundaries that define what can be auto-approved versus what requires human approval.
 
-The architecture transforms AI from a reactive chatbot into a proactive business partner capable of managing complex    
-workflows across multiple domains like email, social media, banking, and file management.
+The architecture transforms AI from a reactive chatbot into a proactive business partner capable of managing complex workflows across multiple domains like email, social media, banking, and file management.
