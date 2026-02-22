@@ -1,12 +1,13 @@
 {
   "mcpServers": {
     "mcp-obsidian": {
-      "type": "stdio",
       "command": "uvx",
-      "args": [
-        "mcp-obsidian"
-      ],
-      "env": {}
+      "args": ["mcp-obsidian"],
+      "env": {
+        "OBSIDIAN_API_KEY": "16e7bc7eea34a7a13c330081ec731a8e06b252f509a70e387eb4de79a234f0ec",
+        "OBSIDIAN_HOST": "127.0.0.1",
+        "OBSIDIAN_PORT": "27124"
+      }
     }
   }
 }
